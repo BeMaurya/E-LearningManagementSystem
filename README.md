@@ -40,11 +40,11 @@ E-LearningManagementSystem/
 
 ## 🧠 Architecture Overview  
 The system follows a monolithic web architecture, where frontend and backend are tightly integrated.  
-Users interact through a browser-based UI  
-PHP handles business logic and request processing  
-MySQL stores users, classes, assignments, and resources  
-Admin and student roles access different modules  
-SQL scripts initialize and manage the database schema
+- Users interact through a browser-based UI
+- PHP handles business logic and request processing
+- MySQL stores users, classes, assignments, and resources
+- Admin and student roles access different modules
+- SQL scripts initialize and manage the database schema
 
 ### 🏗️ Architecture Diagram (Logical Flow)
 ```less
@@ -73,14 +73,20 @@ SQL scripts initialize and manage the database schema
 - MySQL
 - Web Browser
 ### Steps
-- Clone the repository  
-git clone https://github.com/BeMaurya/E-LearningManagementSystem.git
-- Move the project to the htdocs folder  
-Create a database named capstone
-- Import Database/capstone.sql into MySQL  
-Configure database credentials in the PHP config files
+- Clone the repository
+  ```powershell
+  git clone https://github.com/BeMaurya/E-LearningManagementSystem.git
+  ```
+- Move the project to the htdocs folder
+  ```pgsql
+  Create a database named capstone
+  ```
+- Import Database/capstone.sql into MySQL
+  Configure database credentials in the PHP config files
 - Run the project via:
- http://localhost/E-LearningManagementSystem/
+  ```url
+  http://localhost/E-LearningManagementSystem/
+  ```
 
 ## 📌 Usage
 - Admin can manage classes, announcements, assignments
