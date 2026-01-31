@@ -31,13 +31,13 @@ E-LearningManagementSystem/
 - SQL-based database initialization
 
 ## 🧰 Tech Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: PHP
-- Database: MySQL
-- Server: Apache (XAMPP / WAMP)
-- Documentation: PDF report
-- Version Control: Git & GitHub
-
+- 🎨 Frontend: HTML, CSS, JavaScript
+- ⚙️ Backend: PHP
+- 🗄️ Database: MySQL
+- 🌐 Server: Apache (XAMPP / WAMP)
+- 📄 Documentation: PDF Report
+- 🔧 Version Control: Git & GitHub
+  
 ## 🧠 Architecture Overview  
 The system follows a monolithic web architecture, where frontend and backend are tightly integrated.  
 - Users interact through a browser-based UI
@@ -68,29 +68,40 @@ The system follows a monolithic web architecture, where frontend and backend are
 
 ## ⚙️ Installation & Setup
 ### Prerequisites
-- XAMPP / WAMP Server
-- PHP 7+
-- MySQL
-- Web Browser
-### Steps
-- Clone the repository
-  ```powershell
-  git clone https://github.com/BeMaurya/E-LearningManagementSystem.git
-  ```
-- Move the project to the htdocs folder
-  
-  ```pgsql
-  Create a database named capstone
-  ```
-- Import Database/capstone.sql into MySQL
-  ```text
-  Configure database credentials in the PHP config files
-  ```
-- Run the project via:
-  
-  ```url
-  http://localhost/E-LearningManagementSystem/
-  ```
+- 🖥️ XAMPP / WAMP Server
+- 🐘 PHP 7+
+- 🛢️ MySQL
+- 🌍 Web Browser (Chrome / Firefox recommended)
+### Steps  
+1️⃣ Clone the repository
+
+```powershell
+git clone https://github.com/BeMaurya/E-LearningManagementSystem.git
+```
+2️⃣ Move Project to Server Directory  
+Move the project folder into:
+- `htdocs` (XAMPP) or
+- `www` (WAMP)
+3️⃣ Create Database
+Create a MySQL database with the name:
+```text
+capstone
+```
+4️⃣ Import Database Schema  
+Import the SQL file located at:
+```sql
+Database/capstone.sql
+```
+5️⃣ Configure Database Credentials
+Update database credentials in the PHP configuration files if required:
+```text
+host, username, password, database name
+```
+6️⃣ Run the Application  
+Open your browser and navigate to:
+```url
+http://localhost/E-LearningManagementSystem/
+```
 
 ## 📌 Usage
 - Admin can manage classes, announcements, assignments
