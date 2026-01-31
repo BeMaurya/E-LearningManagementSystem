@@ -82,21 +82,25 @@ git clone https://github.com/BeMaurya/E-LearningManagementSystem.git
 Move the project folder into:
 - `htdocs` (XAMPP) or
 - `www` (WAMP)
-3️⃣ Create Database
+
+3️⃣ Create Database  
 Create a MySQL database with the name:
 ```text
 capstone
 ```
+
 4️⃣ Import Database Schema  
 Import the SQL file located at:
 ```sql
 Database/capstone.sql
 ```
-5️⃣ Configure Database Credentials
+
+5️⃣ Configure Database Credentials  
 Update database credentials in the PHP configuration files if required:
 ```text
 host, username, password, database name
 ```
+
 6️⃣ Run the Application  
 Open your browser and navigate to:
 ```url
