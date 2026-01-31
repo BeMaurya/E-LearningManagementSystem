@@ -19,7 +19,7 @@ E-LearningManagementSystem/
 │   ├── vendor/               # External libraries
 │   ├── *.php                 # Core application files
 │
-└── README.txt
+└── README.md
 ```
 
 ## ✨ Features
@@ -78,12 +78,16 @@ The system follows a monolithic web architecture, where frontend and backend are
   git clone https://github.com/BeMaurya/E-LearningManagementSystem.git
   ```
 - Move the project to the htdocs folder
+  
   ```pgsql
   Create a database named capstone
   ```
 - Import Database/capstone.sql into MySQL
+  ```text
   Configure database credentials in the PHP config files
+  ```
 - Run the project via:
+  
   ```url
   http://localhost/E-LearningManagementSystem/
   ```
